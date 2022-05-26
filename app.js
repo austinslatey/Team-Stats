@@ -17,7 +17,21 @@ const team = {
     },
    ],
    _games  : [
-  
+    {
+        opponent: "blue",
+        teamPoints: "25",
+        opponentPoints: "26",
+      },
+      {
+        opponent: "blue",
+        teamPoints: "222",
+        opponentPoints: "221",
+      },
+      {
+        opponent: "blue",
+        teamPoints: "2214",
+        opponentPoints: "22441",
+      },
    ],
   }
   
