@@ -47,9 +47,18 @@ const team = {
         };
         this.players.push(player);
     },
+    addGame(newOpponent, newTeamPoints, newOpponentPoints) {
+        let game = {
+          opponent: newOpponent,
+          teamPoints: newTeamPoints,
+          opponentPoints: newOpponentPoints,
+        };
+        this.games.push(game);
+      },
 }
 
 
 team.addPlayer('duke', 'dukeski', 24);
+team.addGame("bluuue", "17", '17');
 console.log(team._players);
 console.log(team._games);
